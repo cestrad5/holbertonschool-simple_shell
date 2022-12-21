@@ -20,7 +20,7 @@ while (1) {
         break;
 
 
-    if (*line == "\n" || *line == "\t")
+    if (*line == '\n' || *line == '\t')
         continue;
     token = strtok(line, " \t\n");
     for (i = 0; i < 80 && token != NULL; i++){
