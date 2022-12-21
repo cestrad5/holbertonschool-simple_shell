@@ -4,11 +4,6 @@
 * Return: executed command or error
 */
 
-void continuePROM(int signal)
-{
-(void) signal;
-write(STDIN_FILENO, "\n($)", 4);
-}
 
 int interactive(){
 pid_t child_pid;
@@ -25,7 +20,7 @@ while (1) {
         break;
 
 
-    if (*line == " " || *line == "\t")
+    if (*line == "\n" || *line == "\t")
         continue;
     token = strtok(line, " \t\n");
     for (i = 0; i < 80 && token != NULL; i++){
@@ -53,4 +48,9 @@ free(path_command);
 exit(status);
 }
 
+void continuePROM(int signal)
+{
+(void) signal;
+write(STDIN_FILENO, "\n($)", 4);
+}
 
