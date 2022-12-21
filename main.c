@@ -1,4 +1,8 @@
-#include "main.h"
+#include "shell.h"
+/**
+* main - This is a "Simple" Shell project
+* Return: always 0
+*/
 
 int main(void)
 {
@@ -7,4 +11,5 @@ int main(void)
 	else
 		no_interactive();
 	return (0);
+	fflush(stdin);
 }
