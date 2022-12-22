@@ -1,0 +1,26 @@
+.TH hsh 1 "21 Dec 2022" "1.0" "shell man page"
+.SH NAME
+hsh \- Basic command interpreter
+.SH SYNOPSIS
+/hsh
+.B $ [COMMAND] [FILE] -[OPTION]
+.SH DESCRIPTION
+This program simulates the general behavior of a sh in the unix 
+.SH OPTIONS
+We can use the follow comands and others
+
+	ls \- Is to show us the files od the current directory
+
+	pwd \- Is to show us the name of the current directory
+
+	cat \- Is to concatenate file and print on hte standard output
+
+	touch \- Is to create a new file
+.SH BUGS
+if you see any bug in the funtion please let me now with a mail (5864@holbertonstudents.com - 5852@holbertonstudents.com).
+.SH AUTHOR
+    Written by 
+
+ 	\-Camilo Estrada (https://github.com/cestrad5?tab=repositories)
+
+	\-Camilo Zapata (https://github.com/ZapataCamilo?tab=repositories).
