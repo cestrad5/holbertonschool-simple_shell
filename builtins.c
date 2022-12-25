@@ -20,3 +20,9 @@ int builtin(char *command)
 	} else
 		return (0);
 }
+
+void continuePROM(int signal)
+{
+(void) signal;
+write(STDIN_FILENO, "\n($)", 4);
+}

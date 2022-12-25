@@ -3,14 +3,18 @@
 
 >Simple Shell
 >---
-**File descripción**
+**File description**
  ---
 This program will interpret the general behaviors of a shell executing the main commands of a simple shell.
 
 **Compilation**
 ---
-to compile we have to use these flags.
+To compile we have to use these flags.
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+**Bugs**
+---
+The program will get up to 1024 character as an input.
 
 **Example**
 ---
@@ -43,9 +47,8 @@ $
  - First flowchart
 	<img src= https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisr5URAupB5cmsVMs2RpUoEw2aCmGM9b-Yk4BWBdkS1wdufTttC_LBkmt0N5BwhTj6uPnUUbSbJaPg_PvL19pPCoOBw7sQw1XtzdqlG2i8m4UOoKqjnqmXuVVT0pySfuAiX2n8Xo4tFlIFOX4RCRQgsQVwcsfbDky23leJHJdBjdt_gwpWsI6EGOdByA/s1325/simpleShell.jpg>
 ---
- - Second flowchart
-	<img src = https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha868A8BtN8sQZTbavrMDwCDdS4WnKGmyJKOfyVpL8dyWYFpSN2LMRea0yvmKjAyBLqz88j6XY20azKtqxx0Ys3QBWqfnXUtq7u6JzVbkh2JYnw_Q9Yd_7ONXTuFTGVQ2_BkM_UBLsfqb8SKvULRir5IAf0WkR8W6R3yC8PjMm1xTs3NnRuWLNfPQi4A/s2901/Diagrama%20de%20flujo%20shell%20-%20Corriente.jpeg>
----
+
+
 **Authors**
  
  - <a href = "https://github.com/cestrad5">Camilo Estrada<a>

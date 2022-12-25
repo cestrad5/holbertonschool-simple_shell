@@ -8,8 +8,6 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
-int interactive();
-int no_interactive();
 void continuePROM(int signal);
 extern char **environ;
 char *pathfinder(char *command);
